@@ -1,0 +1,21 @@
+
+#dialog #close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#dialog #next-btn, #dialog #prev-btn{
+    position: absolute;
+}
+#dialog #prev-btn {
+    right: 10px;
+    
+}
+
+#dialog #next-btn{
+    left: 10px;
+}
+#dialog img{
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+}

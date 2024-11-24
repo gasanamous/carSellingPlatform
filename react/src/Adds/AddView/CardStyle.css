@@ -1,0 +1,50 @@
+.card-car-img {
+    max-width: 100%;
+    mix-blend-mode: darken;
+    aspect-ratio: 7/5;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.card {
+    border: none !important;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    border-radius: unset;
+}
+.info-car {
+    padding : 2px;
+}
+.fav-icon {
+    position: absolute;
+    bottom: 1;
+    right: 1;
+}
+.fav-icon img {
+    height: 35px;
+}
+.info-car:nth-child(2) {
+    font-size: large;
+    font-weight: 500;
+}
+
+.info-car:nth-child(6){
+    font-size: x-large;
+    font-weight: 500;
+}
+.location-icon, .mileage-icon{
+    margin-right: 10px;
+    height: 30px;
+}
+.info-car a {
+    text-decoration: none;
+    color: green;
+}
+.info-car a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+@media (width < 600px) {
+    .location-icon, .mileage-icon , .fav-icon img{
+        height: 30px;
+    }
+}
