@@ -1,4 +1,4 @@
-# carSellingPlatform
+# Online Car Selling Platform
 Online car selling platform (Web application), full stack, implemented using MERN Stack
 
 To run the project:
