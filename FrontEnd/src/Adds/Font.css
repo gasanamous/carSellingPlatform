@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,333;1,333&display=swap');
+
+.input {
+    background: white;
+}
+* {
+    font-family: "Lexend Deca", sans-serif !important;
+}
+
+@media (width <=768px) {
+    .extraNotes {
+        font-size: 12px;
+    }
+}
+
+.sign-in-up {
+    border-radius: 25px;
+    padding: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.sign-in-up:nth-child(2) {
+    background-color: green;
+    color: white !important;
+    margin-left: 10px;
+}
+
+.bar-a:hover {
+    background-color: green;
+    color: white !important;
+    transition: 0.1s ease-in;
+}
+
+.bar-a {
+    padding: 20px;
+    z-index: 1;
+}
+
+.logoHeader-h1,
+.logoHeader-h3 {
+    width: fit-content;
+    text-align: center;
+    color: white;
+}
+
+.logoHeader-h1 {
+    font-size: 60px;
+}
+
+.logoHeader-h3 {
+    font-size: 40px;
+}
+
+.logo-box-parent {
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-box-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (width <=768px) {
+    .logoHeader-h1 {
+        font-size: 42px !important;
+    }
+
+    .logoHeader-h3 {
+        font-size: 26px !important;
+    }
+
+    .home-paragraph {
+        font-size: 16px !important;
+    }
+
+    .h1-home-paragraph {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width : 768px) {
+    .img-slide {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width : 576px) {
+    .img-slide {
+        height: 100vh !important;
+    }
+}
+
+.img-slide {
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
+    max-height: 60vh;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.carousel {
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.key-specs-details {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.key-specs-child {
+    border: solid 1px lightgray;
+    position: relative;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: calc(50% - 5px);
+}
+
+.key-specs-child:nth-child(n + 3) {
+    margin-top: 10px;
+
+}
+
+.key-specs-child-attribute {
+    color: gray;
+}
+
+.attribute-symb {
+    display: initial !important;
+    font-size: 12px !important;
+    color: black;
+}
+
+.attribute-name {
+    font-size: 14px !important;
+    display: block !important;
+}
+
+.table-spec {
+    width: 100%;
+}
+
+.table-spec tr {
+    border-bottom: solid 1px lightgray;
+}
+
+
+.table-spec tr td {
+    width: 50%;
+    padding: 10px;
+    padding-left: 0px !important;
+}
+
+.box-details {
+    margin-top: 20px;
+    border: none !important;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    border-radius: unset;
+    padding: 20px;
+    background-color: white;
+}
+.no-border-radius .MuiOutlinedInput-root , .no-border-radius .MuiOutlinedInput-root{
+    border-radius: 0;
+}
+.fav-icon {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.fav-icon-details { 
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.contact-seller {
+    margin-top: 0px !important;
+}
+
+.box-sgts { 
+    border: solid 1px lightgray;
+    padding : 5px;
+    height: 120px;
+}
+.a {
+    text-decoration: none;
+    color: black;
+}
+.box-sgts:hover{
+    cursor: pointer;
+    border: solid 1px green;
+}
+form .contact-seller-form  {
+    background-color: white;
+    width: 100%;
+}
+
+.submit-box #btn {
+    text-transform: none;
+    border-radius: 20px;
+    background-color: green;
+    font-family: "Lexend Deca", sans-serif;
+}
+.submit-box #btn:hover {
+    background-color: #006400
+    
+}
+#breif-info-car{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.myAdvert-single-box .card{
+    border:  none !important;
+    border-radius: 0px;
+}
+.myAdvert-single-box .tools {
+ float: right;   
+}
+.myAdvert-single-box{
+    margin-top: 10px !important;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+}
+.myAdvert-single-box .fav-icon{
+    display: none !important;
+}
+.myAdvert-single-box .card {
+    margin:  0;
+    box-shadow: none;
+}
+.test{
+    color: red;
+}
+.myAdvert-single-box .inquiries{
+    padding: 20px;
+    border-bottom:solid 1px lightgrey ;
+}
+ .inquiries .sentData{
+    float: right;
+ }
+ .inquiries #header{
+    background-color: lightgrey;
+    padding : 5px;
+ }
+ .inquiries #contact{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+ }
+ .my-favs .card {
+    border-radius: 0px !important;
+ }

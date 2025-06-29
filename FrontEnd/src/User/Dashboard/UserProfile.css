@@ -1,0 +1,54 @@
+.profileHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details {
+    padding : 20px;
+}
+.details h2, .details .btn {
+    display: none;
+}
+
+.profile-img-box {
+    padding: 10px;
+    width: fit-content;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: dashed 1px lightgrey;
+}
+
+@media  (width <= 600px) {
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
+#edit-form #register-form #password,
+ #edit-form #register-form #confirmPassword,
+ #edit-form #register-form #email{
+    display: none;
+}
+#edit-form #register-form h2{
+    display: none;
+}
+#edit-form #register-form {
+    box-shadow: none !important;
+}
+.dialog form{
+    box-shadow: none !important;
+    padding : 0 !important;
+}
+.dialog form h2, .dialog form h6{
+    display: none;
+}
